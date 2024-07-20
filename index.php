@@ -42,9 +42,12 @@
 
             <?php
             // for connection to db
-            $servername = "localhost";  // db servername
-            $username = "root";     // db username
-            $password = "";     // db password
+            $servername = "localhost";  // db servername or hostname
+            
+            $username = "root";     // db username | this can be change based on the database configuration
+
+            $password = "";     // db password | this can be change based on the database configuration
+
             $dbname = "testdb";  // name of db, NOTE: I used xampp/phpmyadmin for this 
 
             
